@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: #fff;
+}
+
+a[title='站长统计'] {
+    display: none !important;
+}
+
+.mySwiper {
+    width: 100%;
+}
+
+.el-carousel__container {
+    height: 100%;
+}
+
+.swiper-pagination {
+    display: none;
+}
